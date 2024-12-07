@@ -1,5 +1,4 @@
 from itertools import product
-from functools import reduce
 from operator import add, mul
 
 input = open("input.txt", "r", encoding="utf-8").read()
