@@ -16,8 +16,6 @@ for j in range(height):
             ths.append(np.array([j, i]))
 
 def count_th(th):
-    out = np.zeros_like(m, dtype=np.int32)
-
     def check(p, target):
         if p[0] < 0 or p[0] >= height or p[1] < 0 or p[1] >= width:
             return 0
