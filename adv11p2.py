@@ -19,9 +19,6 @@ def count(stone, n):
     
     return count(stone * 2024, n - 1)
 
-c = 0
-for s in stones:
-    c += count(s, 75)
-print(c)
+print(sum(count(s, 75) for s in stones))
         
 
